@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div style="display: flex; justify-content: space-between;">
+        <p>Increment step: <span id="step"></span></p>
+        <p id="user"></p>
+    </div>
+
+    <p id="count"></p>
+    <div style="display: flex; gap: 16px;">
+        <button id="inc">Increment</button>
+        <button id="decr">Decrement</button>
+    </div>
+    <br>
+
+    <div style="display: flex; gap: 16px;">
+        <button id="incStep">Increment Step</button>
+        <button id="decrStep">Decrement Step</button>
+    </div>
+
+
+    <div class="modalWrapper" id="modal">
+        <div class="modal">
+				<img src="/Icon_close.svg.png" id="closeIcon" alt="close-icon" class="closeIcon">
+            <input type="text" id="modalInput">
+            <button id="modalBtn">Submit</button>
+        </div>
+    </div>
+
+    <button onclick="reset()">Reset</button>
+
+
+
+
+
+    <script src="/hw.js"></script>
+</body>
+
+</html>
